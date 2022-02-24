@@ -1,20 +1,29 @@
 # My dotfiles
 
-## Clone
-> Assuming SSH is setup with Github
+## Required
+rcm  
+zsh  
+oh-my-posh 
+
+## Installing RCM and ZSH
 ```
-git clone git@github.com:abbyjeet/.dotfiles.git
+sudo apt-get install rcm zsh 
 ```
 
-## Setup scripts
+## Setup Oh My Posh for ZSH
+Follow the guide here: https://ohmyposh.dev/docs/linux
+
+## Clone
+> Assuming SSH is setup with Github, otherwise use HTTP clone
 ```
-/* todo */
+git clone git@github.com:abbyjeet/.dotfiles.git
 ```
 
 ## Activate dotfiles
 ```
 rcup
 ```
+
 ## Deactivate dotfiles
 ```
 rcdn
@@ -22,4 +31,5 @@ rcdn
 
 
 ### Guide on how to create and manage using RCM
-https://distro.tube/guest-articles/managing-dotfiles-with-rcm.html
+https://distro.tube/guest-articles/managing-dotfiles-with-rcm.html  
+https://github.com/thoughtbot/rcm
