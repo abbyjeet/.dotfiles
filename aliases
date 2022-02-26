@@ -204,3 +204,4 @@ alias ltl='exa --tree --level=2 ${1} --long'
 alias md='mkdir -p'
 alias rd=rmdir
 alias which-command=whence
+alias py=python3.10
