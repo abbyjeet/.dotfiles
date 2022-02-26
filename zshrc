@@ -105,3 +105,7 @@ clear
 source ~/.aliases
 
 eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/my-default.omp.json)"
+
+eval $(ssh-agent -s)
+
+ssh-add
