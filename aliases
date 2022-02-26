@@ -205,4 +205,4 @@ alias md='mkdir -p'
 alias rd=rmdir
 alias which-command=whence
 alias py=python3.10
-alias pip=py -m pip
+alias pip='py -m pip'
