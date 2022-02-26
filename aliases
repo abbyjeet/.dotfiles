@@ -197,7 +197,7 @@ alias history=omz_history
 alias l='exa -lah'
 alias la='exa -laah'
 alias ll='exa -lh'
-alias ls='exa --color=tty'
+alias ls='exa --color=auto'
 alias lsa='exa -lah'
 alias lt='exa --tree --level=2'
 alias ltl='exa --tree --level=2 ${1} --long'
