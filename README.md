@@ -6,28 +6,23 @@ zsh
 oh-my-posh 
 
 ## Installing RCM and ZSH
-```
-sudo apt-get install rcm zsh 
-```
+`sudo apt-get install rcm zsh`
+
+## Set ZSH as default shell
+`chsh -s $(which zsh)`
 
 ## Setup Oh My Posh for ZSH
 Follow the guide here: https://ohmyposh.dev/docs/linux
 
 ## Clone
 > Assuming SSH is setup with Github, otherwise use HTTP clone
-```
-git clone git@github.com:abbyjeet/.dotfiles.git
-```
+`git clone git@github.com:abbyjeet/.dotfiles.git`
 
 ## Activate dotfiles
-```
-rcup
-```
+`rcup`
 
 ## Deactivate dotfiles
-```
-rcdn
-```
+`rcdn`
 
 
 ### Guide on how to create and manage using RCM
