@@ -7,7 +7,12 @@ oh-my-posh
 
 ## Installing RCM and ZSH
 ```
-sudo apt-get install rcm zsh 
+sudo apt-get install rcm zsh
+```
+
+## Set ZSH as default shell
+```
+chsh -s $(which zsh)
 ```
 
 ## Setup Oh My Posh for ZSH
