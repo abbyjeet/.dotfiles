@@ -7,7 +7,7 @@ oh-my-posh
 
 ## Installing RCM and ZSH
 ```
-sudo apt-get install rcm zsh
+sudo apt-get install rcm zsh exa
 ```
 
 ## Set ZSH as default shell
@@ -16,7 +16,7 @@ chsh -s $(which zsh)
 ```
 
 ## Setup Oh My Posh for ZSH
-Follow the guide here: https://ohmyposh.dev/docs/linux
+First follow the guide here to install OhMyPosh: https://ohmyposh.dev/docs/linux
 
 ## Clone
 > Assuming SSH is setup with Github, otherwise use HTTP clone
