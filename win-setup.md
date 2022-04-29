@@ -2,6 +2,7 @@
 Important links/apps to setup: 
 * https://store.rg-adguard.net/
 * [Updating WSL distro](wsl-update.md)
+* 7-zip
 * Code Insiders
 * Twinkle Tray
 * QuickLook
