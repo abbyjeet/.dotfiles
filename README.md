@@ -14,6 +14,7 @@ sudo apt-get install rcm zsh exa
 ```
 chsh -s $(which zsh)
 ```
+and logout to take the effect
 
 ## Setup Oh My Posh for ZSH
 First follow the guide here to install OhMyPosh: https://ohmyposh.dev/docs/linux
