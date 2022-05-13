@@ -3,6 +3,7 @@ Important links/apps to setup:
 * https://store.rg-adguard.net/
 * [Updating WSL distro](wsl-update.md)
 * 7-zip
+* [notepad3](https://www.rizonesoft.com/downloads/notepad3/)
 * Code Insiders
 * Twinkle Tray
 * QuickLook
