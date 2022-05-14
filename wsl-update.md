@@ -29,12 +29,23 @@
 
 ### To create backup image of WSL in case you want to restore
 ```
-wsl --export Ubuntu Ubuntu2110_fresh_install.tar
+wsl --export Ubuntu Ubuntu2204clean.tar.gz
 ```
 
 ### To import, one can use:
 ```
-wsl --import Ubuntu2110Test <directory> Ubuntu2210_fresh_install.tar
+wsl --import UbuntuTest C:\Users\Abhijit\AppData\Local\Packages\UbuntuTest Ubuntu2204clean.tar.gz
+```
+(source: https://askubuntu.com/questions/1369637/how-do-i-install-ubuntu-21-10-in-wsl-on-windows-11)
+
+### After importing, change default user to your username from the imported distro
+1. Run the newly imported distro
+2. Create /etc/wsl.conf and add following lines
+```
+[automount]
+enabled=false
+root=//wsl.localhost/UbuntuTest/home/abhijit
+[user]
+default=abhijit
 ```
 
-(source: https://askubuntu.com/questions/1369637/how-do-i-install-ubuntu-21-10-in-wsl-on-windows-11)
