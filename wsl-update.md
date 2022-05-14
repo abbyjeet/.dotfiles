@@ -48,4 +48,5 @@ root=//wsl.localhost/UbuntuTest/home/abhijit
 [user]
 default=abhijit
 ```
-
+3. exit from WSL
+4. In Windows Terminal, wsl --shutdown and start WSL distro again
