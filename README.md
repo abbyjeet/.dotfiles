@@ -7,7 +7,7 @@ oh-my-posh
 
 ## Installing RCM and ZSH
 ```
-sudo apt-get install rcm zsh exa
+sudo apt-get install rcm zsh nala
 ```
 
 ## Set ZSH as default shell
