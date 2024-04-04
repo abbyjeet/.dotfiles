@@ -17,7 +17,7 @@ chsh -s $(which zsh)
 and logout to take the effect
 
 ## Setup Oh My Posh for ZSH
-First follow the guide here to install OhMyPosh: https://ohmyposh.dev/docs/linux
+First follow the guide here to install OhMyPosh: [https://ohmyposh.dev/docs/installation/linux](https://ohmyposh.dev/docs/installation/linux)
 
 ## Clone
 > Assuming SSH is setup with Github, otherwise use HTTP clone
