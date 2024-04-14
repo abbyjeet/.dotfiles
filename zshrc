@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.distrobox/bin:$PATH
 
 # User configuration
 
@@ -38,3 +39,7 @@ source ~/.aliases
 
 eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/my-default.omp.json)"
 
+
+autoload -Uz compinit
+zstyle ':completion:*' menu select
+fpath+=~/.zfunc

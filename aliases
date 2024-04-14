@@ -4,5 +4,8 @@ alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
 alias l='ls -CF'
 alias la='ls -A'
-alias ll='ls -alF'
+alias ll='ls -lF'
 alias ls='ls --color=auto'
+alias db=distrobox
+alias fp=flatpak
+alias apt='sudo nala'
