@@ -1,0 +1,21 @@
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+
+alias db=distrobox
+alias fp=flatpak
+
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='eza -lh --group-directories-first --icons'
+alias lsa='ls -a'
+alias lt='eza --tree --level=2 --long --icons --git'
+alias lta='lt -a'
+alias ltt='eza --tree --icons --git --long -L'
+alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
+
+alias gtree='git log --graph --oneline'
+alias bat='bat --color=always'

@@ -1,0 +1,3 @@
+# for oh-my-posh
+
+eval "$(oh-my-posh init bash --config ~/themes/amro.omp.json)"
