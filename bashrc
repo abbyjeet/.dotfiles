@@ -2,6 +2,17 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# TODO: To be implemented later to cater to both Ubuntu and Fedora
+# p1=$(cat /etc/*release | grep "^ID=" | cut -d "=" -f 2)
+# echo $p1 
+# gives fedora or ubuntu
+# if [ "$p1" = "fedora" ]; then
+#   # load stuff for fedora
+# elif [ "$p1" = "ubuntu" ]; then
+#   # load stuff for ubuntu
+# fi
+
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
