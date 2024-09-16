@@ -2,12 +2,12 @@
 
 ## Required
 rcm  
-git
-oh-my-posh 
-eza
-bat
-fzf
-nvim
+git  
+oh-my-posh  
+eza  
+bat  
+fzf  
+nvim  
 
 ## Installing RCM and ZSH
 ```
