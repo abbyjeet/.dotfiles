@@ -1,18 +1,23 @@
-# My dotfiles
+# My dotfiles (Fedora)
 
 ## Required
 rcm  
-zsh  
+git
 oh-my-posh 
+eza
+bat
+fzf
+nvim
 
 ## Installing RCM and ZSH
 ```
-sudo apt-get install rcm zsh nala
+sudo dnf install rcm git eza bat fzf nvim
 ```
 
-## Set ZSH as default shell
+## Skip if already set to BASH
+## Set BASH as default shell, if not already (check with `echo $0`)
 ```
-chsh -s $(which zsh)
+chsh -s $(which bash)
 ```
 and logout to take the effect
 
