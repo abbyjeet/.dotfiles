@@ -9,19 +9,18 @@ bat
 fzf  
 nvim  
 
-## Installing RCM and ZSH
+## Installing the required packages
 ```
 sudo dnf install rcm git eza bat fzf nvim
 ```
 
-## Skip if already set to BASH
 ## Set BASH as default shell, if not already (check with `echo $0`)
 ```
 chsh -s $(which bash)
 ```
 and logout to take the effect
 
-## Setup Oh My Posh for ZSH
+## Setup Oh My Posh for BASH
 First follow the guide here to install OhMyPosh: [https://ohmyposh.dev/docs/installation/linux](https://ohmyposh.dev/docs/installation/linux)
 
 ## Clone
