@@ -1,4 +1,4 @@
-# My dotfiles (Fedora)
+# My dotfiles
 
 ## Required
 rcm  
