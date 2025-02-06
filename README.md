@@ -1,5 +1,12 @@
 # My dotfiles
 
+## You can install and activate my dotfiles using this command
+```
+curl -s https://abbyjeet.github.io/.dotfiles/setup.sh | bash -s
+```
+
+## OR do it manually by following these steps
+
 ## Required
 rcm  
 git  
