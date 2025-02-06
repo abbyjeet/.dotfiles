@@ -46,7 +46,7 @@ checkDnf(){
   if [ $(command -v dnf) ]; then
     printf "✅ DNF detected\n"
   else
-    error "This script works only on systems (such as Fedora) that use DNF"
+    error "This script works only on the systems that use DNF (such as Fedora)"
   fi
 }
 
