@@ -55,7 +55,7 @@ installPackages(){
 #   echo "This script must be run with sudo" 
 #   exit 1
 #  fi
-  sudo dnf install -y rcm git eza bat fzf nvim &>/dev/null &
+  sudo dnf install -y rcm git eza bat fzf nvim tmux &>/dev/null &
   # sleep 2 &
   progress "Installing packages" 
   printf "\r✅ Required packages installed\n"
