@@ -15,10 +15,11 @@ eza
 bat  
 fzf  
 nvim  
+tmux
 
 ## Installing the required packages
 ```
-sudo dnf install rcm git eza bat fzf nvim
+sudo dnf install rcm git eza bat fzf nvim tmux
 ```
 
 ## Set BASH as default shell, if not already (check with `echo $0`)
