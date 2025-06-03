@@ -1,11 +1,15 @@
 # My dotfiles
 
-## You can install and activate my dotfiles using this command
+## If you use DNF, you can install and activate my dotfiles using this command
 ```
 curl -s https://abbyjeet.github.io/.dotfiles/setup.sh | bash -s
 ```
 
 ## OR do it manually by following these steps
+
+> Some packages like eza may not be available in the dnf repo. \
+> Please download those from their respective sources, \
+> eg. in case of eza, download from https://github.com/eza-community/eza/releases
 
 ## Required
 rcm  
@@ -19,7 +23,7 @@ tmux
 
 ## Installing the required packages
 ```
-sudo dnf install rcm git eza bat fzf nvim tmux
+sudo dnf install -y --skip-unavailable rcm git eza bat fzf nvim tmux
 ```
 
 ## Set BASH as default shell, if not already (check with `echo $0`)
