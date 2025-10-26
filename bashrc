@@ -23,3 +23,5 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+sudo mount --make-rshared /
