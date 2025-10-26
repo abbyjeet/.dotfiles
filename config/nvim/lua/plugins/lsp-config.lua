@@ -26,9 +26,9 @@ return {
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-			local lspconfig = require("lspconfig")
-			lspconfig.lua_ls.setup({
-				capabilities = capabilities,
+			-- local lspconfig = require("lspconfig")
+			vim.lsp.config("lua_ls", {
+					capabilities = capabilities,
 			})
 
 			vim.keymap.set({ "n", "v" }, "<space>ca", vim.lsp.buf.code_action, {})
